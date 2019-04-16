@@ -2,7 +2,7 @@ package gendoc
 
 import (
 	"github.com/golang/protobuf/protoc-gen-go/descriptor"
-	"github.com/nagytech/protokit"
+	"github.com/pseudomuto/protokit"
 
 	"encoding/json"
 	"fmt"

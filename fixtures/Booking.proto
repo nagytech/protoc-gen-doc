@@ -6,7 +6,7 @@
  */
 syntax = "proto2";
 
-import "github.com/nagytech/protokit/fixtures/extend.proto";
+import "github.com/pseudomuto/protokit/fixtures/extend.proto";
 
 package com.example;
 

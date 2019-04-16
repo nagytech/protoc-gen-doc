@@ -3,7 +3,7 @@ package gendoc
 import (
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/protoc-gen-go/plugin"
-	"github.com/nagytech/protokit"
+	"github.com/pseudomuto/protokit"
 
 	"fmt"
 	"io/ioutil"
@@ -21,7 +21,7 @@ type PluginOptions struct {
 	ExcludePatterns []*regexp.Regexp
 }
 
-// Plugin describes a protoc code generate plugin. It's an implementation of Plugin from github.com/nagytech/protokit
+// Plugin describes a protoc code generate plugin. It's an implementation of Plugin from github.com/pseudomuto/protokit
 type Plugin struct{}
 
 // Generate compiles the documentation and generates the CodeGeneratorResponse to send back to protoc. It does this

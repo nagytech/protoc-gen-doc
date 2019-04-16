@@ -3,8 +3,8 @@ package gendoc_test
 import (
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/protoc-gen-go/descriptor"
-	"github.com/nagytech/protokit"
-	"github.com/nagytech/protokit/utils"
+	"github.com/pseudomuto/protokit"
+	"github.com/pseudomuto/protokit/utils"
 	"github.com/stretchr/testify/suite"
 
 	"testing"

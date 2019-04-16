@@ -60,7 +60,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - The entire `parser` package (in favor of [protokit])
 
-[protokit]: https://github.com/nagytech/protokit
+[protokit]: https://github.com/pseudomuto/protokit
 
 # v1.0.0 - September 26, 2017
 
