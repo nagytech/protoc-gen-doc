@@ -7,8 +7,8 @@ import (
 
 	"testing"
 
-	"github.com/pseudomuto/protoc-gen-doc/extensions"
-	lyft_validate "github.com/pseudomuto/protoc-gen-doc/extensions/lyft_validate"
+	"github.com/nagytech/protoc-gen-doc/extensions"
+	lyft_validate "github.com/nagytech/protoc-gen-doc/extensions/lyft_validate"
 )
 
 var fieldRules *validate.FieldRules

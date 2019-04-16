@@ -7,8 +7,8 @@ import (
 
 	"testing"
 
-	"github.com/pseudomuto/protoc-gen-doc/extensions"
-	validator_field "github.com/pseudomuto/protoc-gen-doc/extensions/validator_field"
+	"github.com/nagytech/protoc-gen-doc/extensions"
+	validator_field "github.com/nagytech/protoc-gen-doc/extensions/validator_field"
 )
 
 var fieldValidator *validator.FieldValidator

@@ -5,7 +5,7 @@ import (
 
 	"net/http"
 
-	"github.com/pseudomuto/protoc-gen-doc/extensions"
+	"github.com/nagytech/protoc-gen-doc/extensions"
 )
 
 // HTTPRule represents a single HTTP rule from the (google.api.http) method option extension.

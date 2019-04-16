@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/pseudomuto/protoc-gen-doc/extensions"
-	google_api_http "github.com/pseudomuto/protoc-gen-doc/extensions/google_api_http"
+	"github.com/nagytech/protoc-gen-doc/extensions"
+	google_api_http "github.com/nagytech/protoc-gen-doc/extensions/google_api_http"
 )
 
 var rule *annotations.HttpRule

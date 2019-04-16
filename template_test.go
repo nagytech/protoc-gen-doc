@@ -3,14 +3,14 @@ package gendoc_test
 import (
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/protoc-gen-go/descriptor"
-	"github.com/pseudomuto/protokit"
-	"github.com/pseudomuto/protokit/utils"
+	"github.com/nagytech/protokit"
+	"github.com/nagytech/protokit/utils"
 	"github.com/stretchr/testify/suite"
 
 	"testing"
 
-	"github.com/pseudomuto/protoc-gen-doc"
-	"github.com/pseudomuto/protoc-gen-doc/extensions"
+	"github.com/nagytech/protoc-gen-doc"
+	"github.com/nagytech/protoc-gen-doc/extensions"
 )
 
 var (

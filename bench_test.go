@@ -1,11 +1,11 @@
 package gendoc_test
 
 import (
-	"github.com/pseudomuto/protokit/utils"
+	"github.com/nagytech/protokit/utils"
 
 	"testing"
 
-	"github.com/pseudomuto/protoc-gen-doc"
+	"github.com/nagytech/protoc-gen-doc"
 )
 
 func BenchmarkParseCodeRequest(b *testing.B) {

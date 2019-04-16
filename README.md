@@ -17,7 +17,7 @@ documentation from your protos.
 
 If you'd like to install this locally, you can `go get` it.
 
-`go get -u github.com/pseudomuto/protoc-gen-doc/cmd/protoc-gen-doc`
+`go get -u github.com/nagytech/protoc-gen-doc/cmd/protoc-gen-doc`
 
 ## Invoking the Plugin
 
@@ -77,8 +77,8 @@ docker run --rm \
 _**Remember**_: Paths should be from within the container, not the host!
 
 > NOTE: Due to the way wildcard expansion works with docker you cannot use a wildcard path (e.g. `protos/*.proto`) in
-the file list. To get around this, if no files are passed, the container will generate docs for `protos/*.proto`, which
-can be changed by mounting different volumes.
+> the file list. To get around this, if no files are passed, the container will generate docs for `protos/*.proto`, which
+> can be changed by mounting different volumes.
 
 ### Simple Usage
 
@@ -86,7 +86,7 @@ For example, to generate HTML documentation for all `.proto` files in the `proto
 
     protoc --doc_out=./doc --doc_opt=html,index.html proto/*.proto
 
-The plugin executable must be in `PATH` for this to work. 
+The plugin executable must be in `PATH` for this to work.
 
 ### Using a precompiled binary
 
@@ -143,7 +143,7 @@ enum MyEnum {
 **Excluding comments**
 
 If you want to have some comment in your proto files, but don't want them to be part of the docs, you can simply prefix
-the comment with `@exclude`. 
+the comment with `@exclude`.
 
 Example: include only the comment for the `id` field
 
@@ -167,37 +167,27 @@ Check out the [example protos](examples/proto) to see all the options.
 
 With the input `.proto` files
 
-* [Booking.proto](examples/proto/Booking.proto)
-* [Customer.proto](examples/proto/Customer.proto)
-* [Vehicle.proto](examples/proto/Vehicle.proto)
+- [Booking.proto](examples/proto/Booking.proto)
+- [Customer.proto](examples/proto/Customer.proto)
+- [Vehicle.proto](examples/proto/Vehicle.proto)
 
 the plugin gives the output
 
-* [Markdown](examples/doc/example.md)
-* [HTML][html_preview]
-* [DocBook](examples/doc/example.docbook)
-* [JSON](examples/doc/example.json)
+- [Markdown](examples/doc/example.md)
+- [HTML][html_preview]
+- [DocBook](examples/doc/example.docbook)
+- [JSON](examples/doc/example.json)
 
 Check out the `examples` task in the [Makefile](Makefile) to see how these were generated.
 
-[gotemplate]:
-    https//golang.org/pkg/text/template/
-    "Template - The Go Programming Language"
-[custom]:
-    https://github.com/pseudomuto/protoc-gen-doc/wiki/Custom-Templates
-    "Custom templates instructions"
-[html_preview]:
-    https://rawgit.com/pseudomuto/protoc-gen-doc/master/examples/doc/example.html
-    "HTML Example Output"
-[travis-svg]:
-    https://travis-ci.org/pseudomuto/protoc-gen-doc.svg?branch=master
-    "Travis CI build status SVG"
-[travis-ci]:
-    https://travis-ci.org/pseudomuto/protoc-gen-doc
-    "protoc-gen-doc at Travis CI"
+[gotemplate]: https//golang.org/pkg/text/template/ "Template - The Go Programming Language"
+[custom]: https://github.com/nagytech/protoc-gen-doc/wiki/Custom-Templates "Custom templates instructions"
+[html_preview]: https://rawgit.com/pseudomuto/protoc-gen-doc/master/examples/doc/example.html "HTML Example Output"
+[travis-svg]: https://travis-ci.org/pseudomuto/protoc-gen-doc.svg?branch=master "Travis CI build status SVG"
+[travis-ci]: https://travis-ci.org/pseudomuto/protoc-gen-doc "protoc-gen-doc at Travis CI"
 [codecov-svg]: https://codecov.io/gh/pseudomuto/protoc-gen-doc/branch/master/graph/badge.svg
 [codecov-url]: https://codecov.io/gh/pseudomuto/protoc-gen-doc
-[godoc-svg]: https://godoc.org/github.com/pseudomuto/protoc-gen-doc?status.svg
-[godoc-url]: https://godoc.org/github.com/pseudomuto/protoc-gen-doc
-[goreport-svg]: https://goreportcard.com/badge/github.com/pseudomuto/protoc-gen-doc
-[goreport-url]: https://goreportcard.com/report/github.com/pseudomuto/protoc-gen-doc
+[godoc-svg]: https://godoc.org/github.com/nagytech/protoc-gen-doc?status.svg
+[godoc-url]: https://godoc.org/github.com/nagytech/protoc-gen-doc
+[goreport-svg]: https://goreportcard.com/badge/github.com/nagytech/protoc-gen-doc
+[goreport-url]: https://goreportcard.com/report/github.com/nagytech/protoc-gen-doc

@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/pseudomuto/protoc-gen-doc/extensions"
+	"github.com/nagytech/protoc-gen-doc/extensions"
 )
 
 func init() {
