@@ -1,7 +1,7 @@
 package gendoc_test
 
 import (
-	"github.com/pseudomuto/protokit/utils"
+	"github.com/nagytech/protokit/utils"
 
 	"testing"
 

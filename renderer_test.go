@@ -1,8 +1,8 @@
 package gendoc_test
 
 import (
-	"github.com/pseudomuto/protokit"
-	"github.com/pseudomuto/protokit/utils"
+	"github.com/nagytech/protokit"
+	"github.com/nagytech/protokit/utils"
 	"github.com/stretchr/testify/suite"
 
 	"os"

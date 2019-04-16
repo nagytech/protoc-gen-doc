@@ -81,7 +81,7 @@
   revision = "d8ed2627bdf02c080bf22230dbb337003b7aba2d"
 
 [[projects]]
-  name = "github.com/pseudomuto/protokit"
+  name = "github.com/nagytech/protokit"
   packages = [
     ".",
     "fixtures",
